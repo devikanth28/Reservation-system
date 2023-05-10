@@ -1,0 +1,101 @@
+INSERT INTO Place (district, city, state) VALUES ('Anantapur', 'Anantapur', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Anantapur', 'Guntakal', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Anantapur', 'Hindupur', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Anantapur', 'Kadiri', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Chittoor', 'Chittoor', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Chittoor', 'Tirupati', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Chittoor', 'Srikalahasti', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Chittoor', 'Madanapalle', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('East Godavari', 'Kakinada', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('East Godavari', 'Rajahmundry', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('East Godavari', 'Amalapuram', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('East Godavari', 'Peddapuram', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Guntur', 'Guntur', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Guntur', 'Tenali', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Guntur', 'Narasaraopet', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Guntur', 'Chilakaluripet', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Krishna', 'Vijayawada', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Krishna', 'Machilipatnam', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Krishna', 'Nuzvid', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Krishna', 'Gudivada', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Kurnool', 'Kurnool', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Kurnool', 'Adoni', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Kurnool', 'Nandyal', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Kurnool', 'Dhone', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Prakasam', 'Ongole', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Prakasam', 'Chirala', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state) VALUES ('Prakasam', 'Kandukur', 'Andhra Pradesh');
+INSERT INTO Place (district, city, state)
+VALUES ('Prakasam', 'Markapur', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('SPSR Nellore', 'Nellore', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('SPSR Nellore', 'Gudur', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('SPSR Nellore', 'Sullurpeta', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('SPSR Nellore', 'Venkatagiri', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Srikakulam', 'Srikakulam', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Srikakulam', 'Rajam', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Srikakulam', 'Amadalavalasa', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Srikakulam', 'Palasa', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Visakhapatnam', 'Visakhapatnam', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Visakhapatnam', 'Vizianagaram', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Visakhapatnam', 'Anakapalle', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Visakhapatnam', 'Bheemunipatnam', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Vizianagaram', 'Vizianagaram', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Vizianagaram', 'Bobbili', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Vizianagaram', 'Parvathipuram', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('Vizianagaram', 'Salur', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('West Godavari', 'Eluru', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('West Godavari', 'Bhimavaram', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('West Godavari', 'Narsapuram', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('West Godavari', 'Tanuku', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('YSR Kadapa', 'Kadapa', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('YSR Kadapa', 'Proddatur', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('YSR Kadapa', 'Pulivendula', 'AndhraPradesh');
+
+INSERT INTO Place (district, city, state)
+VALUES ('YSR Kadapa', 'Rajampet', 'AndhraPradesh');

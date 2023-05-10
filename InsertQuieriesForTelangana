@@ -1,0 +1,141 @@
+INSERT INTO Place(city, district, state) VALUES ('Adilabad', 'Adilabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Mancherial', 'Adilabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Nirmal', 'Adilabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Bellampalle', 'Adilabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Kothagudem', 'Bhadradri Kothagudem', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Palvancha', 'Bhadradri Kothagudem', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Bhadrachalam', 'Bhadradri Kothagudem', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Hyderabad', 'Hyderabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Secunderabad', 'Hyderabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Cyberabad', 'Hyderabad', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Jagitial', 'Jagitial', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Koratla', 'Jagitial', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Metpally', 'Jagitial', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Dharmapuri', 'Jagitial', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Jangaon', 'Jangaon', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Ghanpur Station', 'Jangaon', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Bhongir', 'Jangaon', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Kodakandla', 'Jangaon', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Bhupalapally', 'Jayashankar Bhupalapally', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Mahadevpur', 'Jayashankar Bhupalapally', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Eturunagaram', 'Jayashankar Bhupalapally', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Gadwal', 'Jogulamba Gadwal', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Alampur', 'Jogulamba Gadwal', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Wanaparthy', 'Jogulamba Gadwal', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Kollapur', 'Jogulamba Gadwal', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Kamareddy', 'Kamareddy', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Banswada', 'Kamareddy', 'Telangana');
+INSERT INTO Place(city, district, state) VALUES ('Yellareddy', 'Kamareddy', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Karimnagar', 'Karimnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Manthani', 'Karimnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Jagtial', 'Karimnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Huzurabad', 'Karimnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Khammam', 'Khammam', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Kothagudem', 'Khammam', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Sathupalle', 'Khammam', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Palvancha', 'Khammam', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Asifabad', 'Komaram Bheem', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Bellampalle', 'Komaram Bheem', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Mancherial', 'Komaram Bheem', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Nirmal', 'Komaram Bheem', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Mahabubabad', 'Mahabubabad', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Maripeda', 'Mahabubabad', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Gudur', 'Mahabubabad', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Mahabubnagar', 'Mahabubnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Jadcherla', 'Mahabubnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Wanaparthy', 'Mahabubnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Nagarkurnool', 'Mahabubnagar', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Medak', 'Medak', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Siddipet', 'Medak', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Gajwel', 'Medak', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Narayankhed', 'Medak', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Medchal', 'Medchal Malkajgiri', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Malkajgiri', 'Medchal Malkajgiri', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Shamirpet', 'Medchal Malkajgiri', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Nagarkurnool', 'Nagarkurnool', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES
+('Medak', 'Medak', 'Telangana'),
+('Siddipet', 'Medak', 'Telangana'),
+('Gajwel', 'Medak', 'Telangana'),
+('Narayankhed', 'Medak', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES
+('Medchal', 'Medchal Malkajgiri', 'Telangana'),
+('Malkajgiri', 'Medchal Malkajgiri', 'Telangana'),
+('Shamirpet', 'Medchal Malkajgiri', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES
+('Nagarkurnool', 'Nagarkurnool', 'Telangana'),
+('Achampet', 'Nagarkurnool', 'Telangana'),
+('Kalwakurthy', 'Nagarkurnool', 'Telangana'),
+('Kollapur', 'Nagarkurnool', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES
+('Nalgonda', 'Nalgonda', 'Telangana'),
+('Miryalaguda', 'Nalgonda', 'Telangana'),
+('Devarakonda', 'Nalgonda', 'Telangana'),
+('Suryapet', 'Nalgonda', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES
+('Nirmal', 'Nirmal', 'Telangana'),
+('Bhainsa', 'Nirmal', 'Telangana'),
+('Mudhole', 'Nirmal', 'Telangana'),
+('Sarangapur', 'Nirmal', 'Telangana');
+
+
+INSERT INTO Place (city, district, state) VALUES 
+('Nizamabad', 'Nizamabad', 'Telangana'),
+('Bodhan', 'Nizamabad', 'Telangana'),
+('Kamareddy', 'Nizamabad', 'Telangana'),
+('Armoor', 'Nizamabad', 'Telangana'),
+('Peddapalli', 'Peddapalli', 'Telangana'),
+('Manthani', 'Peddapalli', 'Telangana'),
+('Godavarikhani', 'Peddapalli', 'Telangana'),
+('Karimnagar', 'Peddapalli', 'Telangana'),
+('Sircilla', 'Rajanna Sircilla', 'Telangana'),
+('Vemulawada', 'Rajanna Sircilla', 'Telangana'),
+('Boinpalli', 'Rajanna Sircilla', 'Telangana'),
+('Ibrahimpatnam', 'Rangareddy', 'Telangana'),
+('Shamshabad', 'Rangareddy', 'Telangana'),
+('Chevella', 'Rangareddy', 'Telangana'),
+('Vikarabad', 'Rangareddy', 'Telangana'),
+('Sangareddy', 'Sangareddy', 'Telangana'),
+('Zaheerabad', 'Sangareddy', 'Telangana'),
+('Andole', 'Sangareddy', 'Telangana'),
+('Jogipet', 'Sangareddy', 'Telangana'),
+('Siddipet', 'Siddipet', 'Telangana'),
+('Gajwel', 'Siddipet', 'Telangana'),
+('Husnabad', 'Siddipet', 'Telangana'),
+('Siricilla', 'Siddipet', 'Telangana'),
+('Suryapet', 'Suryapet', 'Telangana'),
+('Kodad', 'Suryapet', 'Telangana'),
+('Huzurnagar', 'Suryapet', 'Telangana'),
+('Miryalaguda', 'Suryapet', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES ('Vikarabad', 'Vikarabad', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Tandur', 'Vikarabad', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Parigi', 'Vikarabad', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Kodangal', 'Vikarabad', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES ('Wanaparthy', 'Wanaparthy', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Kollapur', 'Wanaparthy', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Gadwal', 'Wanaparthy', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Atmakur', 'Wanaparthy', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES ('Parvathagiri', 'Warangal Rural', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Ghanpur Station', 'Warangal Rural', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Narsampet', 'Warangal Rural', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Wardhannapet', 'Warangal Rural', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES ('Warangal', 'Warangal Urban', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Hanamkonda', 'Warangal Urban', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Kazipet', 'Warangal Urban', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Bhupalpalle', 'Warangal Urban', 'Telangana');
+
+INSERT INTO Place (city, district, state) VALUES ('Bhongir', 'Yadadri Bhuvanagiri', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Choutuppal', 'Yadadri Bhuvanagiri', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Aler', 'Yadadri Bhuvanagiri', 'Telangana');
+INSERT INTO Place (city, district, state) VALUES ('Ramannapet', 'Yadadri Bhuvanagiri', 'Telangana');
+
+
+

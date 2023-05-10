@@ -1,0 +1,60 @@
+create schema reservationSystem;
+CREATE TABLE Place (
+  city VARCHAR(255),
+  district VARCHAR(255),
+    state VARCHAR(255)
+);
+CREATE TABLE Bus (
+  BusId INT NOT NULL AUTO_INCREMENT,
+  BusName VARCHAR(255) NOT NULL,
+  Src VARCHAR(255) NOT NULL,
+  Dest VARCHAR(255) NOT NULL,
+  PRIMARY KEY (BusId)
+);
+
+CREATE TABLE TravellingDates (
+  BusId INT NOT NULL,
+  Date DATE NOT NULL,
+  FOREIGN KEY (BusId) REFERENCES Bus(BusId)
+);
+
+
+
+Insert into Bus values 
+('Kesineni Travels
+Orange Tours and Travels
+Diwakar Travels
+SVR Tours and Travels
+Kaveri Travels
+VRL Travels
+Meghana Travels
+Komitla Travels
+Morning Star Travels
+Rajesh Travels'),
+();
+
+
+select * from Place;
+select * from  Bus;
+
+
+INSERT INTO Bus (busname, src, dest) VALUES
+('Kesineni Travels','Hyderbad', 'Tenali'),
+('Orange Tours and Travels', 'Mancherial', 'Kakinada'),
+('Diwakar Travels', 'Miryalaguda', 'Ongole'),
+('SVR Tours and Travels', 'Nizamabad', 'Amadalavalasa'),
+('Kaveri Travels', 'Secunderabad', 'Nellore'),
+('VRL Travels', 'Bellampalle', 'Tanuku'),
+('Meghana Travels', 'Palvancha', 'Narsapuram'),
+('Komitla Travels', 'Khammam', 'Bhimavaram'),
+('Morning Star Travels', 'Medak', 'Bobbili'),
+('Rajesh Travels', 'Narayankhed', 'Anakapalle');
+
+select * from TravellingDates;
+
+select * from Bus a inner join TravellingDates b on a.BusId=b.BusId where a.Src="Hyderbad" and a.Dest="Tenali" and b.Date="2023-04-26";
+
+Insert into TravellingDates (BusId,Date) Values 
+(1,now()),(2,now()),(3,now()),(4,now()),(5,now()),(6,now()),(7,now()),(8,now()),(9,now()),(10,now()),
+(1,'2023-04-27'),(2,'2023-04-27'),(3,'2023-04-27'),(4,'2023-04-27'),(5,'2023-04-27'),(6,'2023-04-27'),(7,'2023-04-27'),(8,'2023-04-27'),(9,'2023-04-27'),(10,'2023-04-27'),
+(1,'2023-04-28'),(2,'2023-04-28'),(1,'2023-04-28'),(4,'2023-04-28'),(5,'2023-04-28'),(6,'2023-04-28'),(7,'2023-04-28'),(8,'2023-04-28'),(9,'2023-04-28'),(10,'2023-04-28');
