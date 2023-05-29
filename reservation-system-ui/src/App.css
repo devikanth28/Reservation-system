@@ -40,3 +40,30 @@
 /* .bus-container{
   background-image:(../../../)
 } */
+.Booked{
+  background-color: red;
+}
+.select{
+  background-color: blue;
+}
+
+.bus-seat-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 49%;
+  margin-left: 25%;
+}
+
+.bus-seat {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span.bus-seat{
+  border: 0;
+}

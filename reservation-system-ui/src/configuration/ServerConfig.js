@@ -17,6 +17,18 @@ const CONFIG = {
                 method: REQUEST_TYPE.GET,
                 // contentType: CONTENT_TYPE.JSON
             }
+        },
+        GETBUSES:{
+            PATH:API_URL+'getBuses',
+            HEADER:{
+                method:REQUEST_TYPE.GET,
+            }
+        },
+        GETSEATS:{
+            PATH:API_URL+'getSeats',
+            HEADER:{
+                method:REQUEST_TYPE.GET
+            }
         }
     }
 }
