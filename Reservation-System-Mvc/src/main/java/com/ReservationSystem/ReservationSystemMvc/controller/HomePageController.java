@@ -52,7 +52,6 @@ public class HomePageController {
 		Date date=Date.valueOf(requestDate);
 		try {
 			List<Bus> Buses = placeService.getBusBasedOnCriteria(requestFromParam,requestToParam,date);
-			System.out.println("Places"+Buses);
 		return new Context("message", Buses, StatusCode.SUCCESS);
 		}catch(Exception e) {
 			System.out.println("err   "+e);
