@@ -55,7 +55,7 @@ public class HomePageController {
 		return new Context("message", Buses, StatusCode.SUCCESS);
 		}catch(Exception e) {
 			System.out.println("err   "+e);
-			return new Context(e.getMessage(),"Failure",StatusCode.FAILURE);
+			return new Context(e.getMessage(),"Failure  ",StatusCode.FAILURE);
 		}
 		
 			
