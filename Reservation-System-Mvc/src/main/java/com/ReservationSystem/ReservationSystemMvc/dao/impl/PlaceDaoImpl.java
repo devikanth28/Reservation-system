@@ -37,7 +37,7 @@ public class PlaceDaoImpl implements PlaceDao{
 
 	@Override
 	public List<Bus> getBusBasedOnCriteria(String src,String dest,Date date) {
-		List<Bus> buses = jdbcTemplate.query("select * from Bus a inner join TravellingDates b on a.BusId=b.BusId where a.Src='"+src+"' and a.Dest='"+dest+"' and b.Date='"+date+"'", new RowMapper<Bus>() {
+		List<Bus> buses = jdbcTemplate.query("select * from Bus a left join TravellingDates b on a.BusId=b.BusId where a.Src='"+src+"' and a.Dest='"+dest+"' and b.Date='"+date+"'", new RowMapper<Bus>() {
 		    public Bus mapRow(ResultSet rs, int rowNum) throws SQLException {
 		    	Bus bus = new Bus();
 		    	bus.setName(rs.getString("BusName"));
@@ -47,7 +47,7 @@ public class PlaceDaoImpl implements PlaceDao{
 		        return bus;
 		    }
 		});
-		System.out.println(buses);
+		System.out.println("buses"+buses);
 		return buses;
 	}
 
