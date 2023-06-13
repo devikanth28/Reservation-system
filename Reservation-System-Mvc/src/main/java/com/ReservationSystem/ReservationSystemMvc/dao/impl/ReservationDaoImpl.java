@@ -22,13 +22,14 @@ public class ReservationDaoImpl implements ReservationDao{
 	@Override
 	public List<Seat> getReservedSeatsForBus(int busId, Date date) {
 		System.out.println(busId+""+date);
-		List<Seat> reservedSeats = jdbcTemplate.query("SELECT  a.date, a.BusId, a.seatId, a.status, a.bookedStatus,b.seatNo FROM reserved_seats a inner join Seat b on a.seatId = b.seatId WHERE a.BusId = '"+busId+"' AND a.date = '"+date+"'", new RowMapper<Seat>() {
+		List<Seat> reservedSeats = jdbcTemplate.query("SELECT  a.date, a.BusId, a.seatId, a.status, a.bookedStatus,b.seatNo,b.Price FROM reserved_seats a inner join Seat b on a.seatId = b.seatId WHERE a.BusId = '"+busId+"' AND a.date = '"+date+"'", new RowMapper<Seat>() {
 		    public Seat mapRow(ResultSet rs, int rowNum) throws SQLException {
 		    	Seat seat = new Seat();
 		    	seat.setSeatId(rs.getInt("seatId"));
 		    	seat.setSeatNo(rs.getString("seatNo"));
 		    	seat.setSeatStatus(rs.getString("status"));
 		    	seat.setBookedStatus(rs.getString("bookedStatus"));
+		    	seat.setPrice(rs.getInt("Price"));
 		        return seat;
 		    }
 		});
