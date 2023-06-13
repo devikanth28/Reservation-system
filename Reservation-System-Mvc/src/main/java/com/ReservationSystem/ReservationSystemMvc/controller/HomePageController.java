@@ -66,10 +66,10 @@ public class HomePageController {
 		LoggingUtility.getRequestParameter(request);
 		String travellingDate = request.getParameter("travellingDate");
 		String busId = request.getParameter("busId");
-		int parseBusId = Integer.parseInt(busId);
-		Date date=Date.valueOf(travellingDate);
+//		int parseBusId = Integer.parseInt(busId);
+//		Date date=Date.valueOf(travellingDate);
  		try {
-			List<Seat> seats = reservationService.getReservedSeatsForBus(1, date);
+			List<Seat> seats = reservationService.getReservedSeatsForBus(1, new Date(0));
 			return new Context("successfully Featched Data",seats,StatusCode.SUCCESS);
 		}
  		catch (Exception e) {
