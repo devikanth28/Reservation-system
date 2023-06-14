@@ -2,9 +2,13 @@ package com.ReservationSystem.ReservationSystemMvc.domain;
 
 public class User {
 	
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password + ", userId=" + userId + "]";
+	}
 	private String username;
 	private String password;
-	private String userId;
+	private int userId;
 	public String getUsername() {
 		return username;
 	}
@@ -17,10 +21,10 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getUserId() {
+	public int getUserId() {
 		return userId;
 	}
-	public void setUserId(String userId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 

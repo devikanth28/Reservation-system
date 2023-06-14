@@ -42,7 +42,7 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	@Override
-	public String getUser(String username, String password) {
+	public String login(String username, String password) {
 		Map<String, Object> paramMap = new HashMap<>();
 		paramMap.put("value1", username);
 		System.out.println(getExistingUser(username));
@@ -57,5 +57,26 @@ public class UserDaoImpl implements UserDao {
 		}
 		return "success";
 
+	}
+
+	@Override
+	public User getUserDetails(String username) {
+		Map<String, Object> paramMap = new HashMap<>();
+		paramMap.put("username", username);
+		System.out.println(username);
+		String sql = "select UserName,Password,UserId from users where UserName=(:username)";
+		try {
+		return jdbcTemplate.query(sql, paramMap, rs->{
+			User user = new User();
+			while (rs.next()) {
+			user.setUsername(rs.getString("UserName"));
+			user.setUserId(rs.getInt("UserId"));
+			}
+			return user;
+		});
+		}catch (Exception e) {
+			System.out.println("error"+e);
+			return new User();
+		}
 	}
 }

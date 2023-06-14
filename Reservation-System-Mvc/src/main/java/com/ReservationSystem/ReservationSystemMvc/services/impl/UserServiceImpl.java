@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ReservationSystem.ReservationSystemMvc.dao.UserDao;
+import com.ReservationSystem.ReservationSystemMvc.domain.User;
 import com.ReservationSystem.ReservationSystemMvc.services.UserService;
 
 @Service
@@ -18,8 +19,16 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public String getUserDetails(String username, String password) {
-		return userDao.getUser(username,password);
+	public String login(String username, String password) {
+		return userDao.login(username,password);
+	}
+
+	@Override
+	public User getUserDetails(String username) {
+		if(username == null || username.isEmpty()) {
+			return new User();
+		}
+		return userDao.getUserDetails(username);
 	}
 
 }

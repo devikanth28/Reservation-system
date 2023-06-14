@@ -67,7 +67,15 @@ public class DefaultController {
 	public String login() {
 		String UserName = "DineshBabu";
 		String Password = "DineshBabu";
-		System.out.println(userService.getUserDetails(UserName, Password));
+		System.out.println(userService.login(UserName, Password));
+		return null;
+		
+	}
+	
+	@GetMapping("/getUSerdetails")
+	public String getUSerdetails() {
+		String UserName = "DineshBabu";
+		System.out.println(userService.getUserDetails(UserName));
 		return null;
 		
 	}
