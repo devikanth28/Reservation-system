@@ -10,7 +10,7 @@ public class Seat {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	private int seatId;
+	private Integer seatId;
 	public int getSeatId() {
 		return seatId;
 	}

@@ -3,6 +3,7 @@ package com.ReservationSystem.ReservationSystemMvc.dao.impl;
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,15 @@ public class ReservationDaoImpl implements ReservationDao{
 		});
 		System.out.println("reservedSeats"+reservedSeats);
 		return reservedSeats;
+	}
+	
+	@Override
+	public String updateSeatsForBus(int busId, Date date) {
+		for (int i = 1; i <= 50; i++) {
+			jdbcTemplate.update("Insert into reserved_seats(BusId,seatId,date,status,bookedStatus) values(?,?,?,?,?)",
+					busId, i,date, "A", "N");
+		}
+		return "success";
 	}
 
 }

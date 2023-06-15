@@ -49,7 +49,8 @@ public class DefaultController {
 	public String getReservedSeatsForBus() {
 		  long millis=System.currentTimeMillis();  
 	        java.sql.Date date=new java.sql.Date(millis);  
-		List<Seat> places = reservationService.getReservedSeatsForBus(1,date);
+//		List<Seat> places = 
+		String places = reservationService.updateSeatsForBus(1,date);
 		System.out.println(places);
 		return "Success";
 

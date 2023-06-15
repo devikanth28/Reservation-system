@@ -11,7 +11,7 @@ import com.ReservationSystem.ReservationSystemMvc.domain.Seat;
 import com.ReservationSystem.ReservationSystemMvc.services.ReservationService;
 
 @Service
-public class ReservationServiceImpl implements ReservationService{
+public class ReservationServiceImpl implements ReservationService {
 	
 	@Autowired
 	ReservationDao reservationDao;
@@ -21,4 +21,8 @@ public class ReservationServiceImpl implements ReservationService{
 		return reservationDao.getReservedSeatsForBus(busId, bookingDate);
 	}
 
+	@Override
+	public String updateSeatsForBus(int busId, Date date) {
+		return reservationDao.updateSeatsForBus(busId, date);
+	}
 }
