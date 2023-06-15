@@ -12,4 +12,6 @@ public interface PlaceDao {
 
 	public List<Bus> getBusBasedOnCriteria(String src,String dest,Date date);
 
+	public List<Bus> getAllBuses();
+
 }

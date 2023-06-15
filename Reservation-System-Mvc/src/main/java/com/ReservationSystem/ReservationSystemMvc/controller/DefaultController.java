@@ -1,5 +1,7 @@
 package com.ReservationSystem.ReservationSystemMvc.controller;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,4 +82,30 @@ public class DefaultController {
 		return null;
 		
 	}
+	
+	@GetMapping("/getAllBUses")
+	public String getAllBuses() {
+		List<Bus> places = placeService.getAllBuses();
+		System.out.println(places);
+		return "Success";
+
+	}
+	
+
+	@GetMapping("/reserveSeats")
+	public String reserveSeats() {
+		  long millis=System.currentTimeMillis();  
+	        java.sql.Date date=new java.sql.Date(millis);  
+		List<Seat> places = new ArrayList<>();
+		Seat s1 = new Seat();
+		s1.setSeatId(22);
+		Seat s2 = new Seat();
+		s2.setSeatId(23);
+		places.add(s1);
+		places.add(s2);
+		String places1 = reservationService.reserveSeatsForBus(1,date,places);
+		return "Success";
+
+	}
+
 }

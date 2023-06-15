@@ -25,4 +25,9 @@ public class ReservationServiceImpl implements ReservationService {
 	public String updateSeatsForBus(int busId, Date date) {
 		return reservationDao.updateSeatsForBus(busId, date);
 	}
+
+	@Override
+	public String reserveSeatsForBus(int busId, Date date, List<Seat> seats) {
+		return reservationDao.reserveSeatsForBus(busId, date,seats);
+	}
 }

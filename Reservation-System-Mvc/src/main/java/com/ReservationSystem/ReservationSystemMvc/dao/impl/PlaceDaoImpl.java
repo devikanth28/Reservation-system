@@ -51,4 +51,20 @@ public class PlaceDaoImpl implements PlaceDao{
 		return buses;
 	}
 
+	@Override
+	public List<Bus> getAllBuses() {
+		List<Bus> buses = jdbcTemplate.query("SELECT * FROM Bus", new RowMapper<Bus>() {
+		    public Bus mapRow(ResultSet rs, int rowNum) throws SQLException {
+		    	Bus bus = new Bus();
+		        bus.setBusId(rs.getInt("BusId"));
+		        bus.setName(rs.getString("BusName"));
+		        bus.setSrc(rs.getString("Src"));
+		        bus.setDest(rs.getString("Dest"));
+		        return bus;
+		    }
+		});
+		System.out.println(buses);
+		return buses;
+	}
+
 }

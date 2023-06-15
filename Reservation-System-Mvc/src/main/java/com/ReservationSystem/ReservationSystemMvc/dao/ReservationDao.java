@@ -11,4 +11,6 @@ public interface ReservationDao {
 
 	public String updateSeatsForBus(int busId, Date date);
 
+	public String reserveSeatsForBus(int busId, Date date, List<Seat> seats);
+
 }

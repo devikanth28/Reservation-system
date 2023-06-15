@@ -47,4 +47,14 @@ public class ReservationDaoImpl implements ReservationDao{
 		return "success";
 	}
 
+	@Override
+	public String reserveSeatsForBus(int busId, Date date, List<Seat> seats) {
+		for (Seat seat : seats) {
+			jdbcTemplate.update("update reserved_seats set  bookedStatus =? where busId = ? and date =? and seatId=?",
+					"B",busId, date,seat.getSeatId());
+		}
+		return "success";
+	
+	}
+
 }
