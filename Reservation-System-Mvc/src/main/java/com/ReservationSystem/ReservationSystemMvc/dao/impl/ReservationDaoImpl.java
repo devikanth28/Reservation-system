@@ -40,11 +40,18 @@ public class ReservationDaoImpl implements ReservationDao{
 	
 	@Override
 	public String updateSeatsForBus(int busId, Date date) {
+		updateSeatsWithTravellingDate(busId, date);
 		for (int i = 1; i <= 50; i++) {
 			jdbcTemplate.update("Insert into reserved_seats(BusId,seatId,date,status,bookedStatus) values(?,?,?,?,?)",
 					busId, i,date, "A", "N");
 		}
 		return "success";
+	}
+
+	private void updateSeatsWithTravellingDate(int busId, Date date) {
+		jdbcTemplate.update("Insert into travelleing_dates(BusId,date) values(?,?)",
+				busId,date);
+		
 	}
 
 	@Override
