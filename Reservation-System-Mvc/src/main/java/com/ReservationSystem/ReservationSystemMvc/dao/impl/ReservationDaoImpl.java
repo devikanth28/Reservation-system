@@ -49,7 +49,7 @@ public class ReservationDaoImpl implements ReservationDao{
 	}
 
 	private void updateSeatsWithTravellingDate(int busId, Date date) {
-		jdbcTemplate.update("Insert into travelleing_dates(BusId,date) values(?,?)",
+		jdbcTemplate.update("Insert into TravellingDates(BusId,Date) values(?,?)",
 				busId,date);
 		
 	}
