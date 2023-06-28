@@ -40,6 +40,7 @@ public class PlaceDaoImpl implements PlaceDao{
 		List<Bus> buses = jdbcTemplate.query("select * from Bus a left join TravellingDates b on a.BusId=b.BusId where a.Src='"+src+"' and a.Dest='"+dest+"' and b.Date='"+date+"'", new RowMapper<Bus>() {
 		    public Bus mapRow(ResultSet rs, int rowNum) throws SQLException {
 		    	Bus bus = new Bus();
+		    	bus.setBusId(rs.getInt("busId"));
 		    	bus.setName(rs.getString("BusName"));
 		    	bus.setSrc(rs.getString("Src"));
 		    	bus.setDest(rs.getString("Dest"));
