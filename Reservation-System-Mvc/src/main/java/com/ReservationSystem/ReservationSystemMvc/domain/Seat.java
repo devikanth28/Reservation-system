@@ -2,6 +2,9 @@ package com.ReservationSystem.ReservationSystemMvc.domain;
 
 public class Seat {
 	
+	public Seat() {
+		this.seatId=seatId;
+	}
 	
 	private double price;
 	public double getPrice() {

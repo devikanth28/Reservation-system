@@ -7,6 +7,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ReservationSystem.ReservationSystemMvc.domain.Bus;
 import com.ReservationSystem.ReservationSystemMvc.domain.Place;
@@ -83,13 +84,13 @@ public class DefaultController {
 		
 	}
 	
-	@GetMapping("/getAllBUses")
-	public String getAllBuses() {
-		List<Bus> places = placeService.getAllBuses();
-		System.out.println(places);
-		return "Success";
-
-	}
+//	@GetMapping("/getAllBUses")
+//	public @ResponseBody String getAllBuses() {
+//		List<Bus> places = placeService.getAllBuses();
+//		System.out.println(places);
+//		return "Success";
+//
+//	}
 	
 
 	@GetMapping("/reserveSeats")
