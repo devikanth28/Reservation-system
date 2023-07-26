@@ -67,3 +67,32 @@
 span.bus-seat{
   border: 0;
 }
+.Booked-seat-Indication{
+      /* margin-top: 0; */
+      height: 1rem;
+      margin-bottom: 0rem;
+      width: 1rem;
+      border: 1px solid green;
+      margin-right: 0.5rem;
+      background: #ff0044;
+}
+.selecte-seat-Indication{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border: 1px solid green;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+  background: blue;
+  margin-bottom: 0rem;
+}
+
+.password-box{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+.w-10{
+  width: 10%;
+}

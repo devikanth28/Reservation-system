@@ -29,6 +29,42 @@ const CONFIG = {
             HEADER:{
                 method:REQUEST_TYPE.GET
             }
+        },
+        GETALLBUSES:{
+            PATH:API_URL+'getAllBuses',
+            HEADER:{
+                method:REQUEST_TYPE.GET
+            }
+        },
+        SETUPDATEBUSDETAILS:{
+            PATH:API_URL+'updateBusDetails',
+            HEADER:{
+                method:REQUEST_TYPE.POST
+            }
+        },
+        GETUSERDETAILS:{
+            PATH:API_URL+'getUserDetails',
+            HEADER:{
+                method:REQUEST_TYPE.GET
+            }
+        },
+        CREATEUSER:{
+            PATH:API_URL+'createUser',
+            HEADER:{
+                method:REQUEST_TYPE.POST
+            }
+        },
+        GETlOGIN:{
+            PATH:API_URL+'getLogin',
+            HEADER:{
+                method:REQUEST_TYPE.GET
+            }
+        },
+        GETBOOKSEATS:{
+            PATH:API_URL+'getBookSeats',
+            HEADER:{
+                method:REQUEST_TYPE.GET
+            }
         }
     }
 }

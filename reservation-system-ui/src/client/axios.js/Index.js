@@ -7,7 +7,7 @@ const axiosBaseApi = axios.create({
     'Access-Control-Allow-Credentials':true,
     // headers: {"Access-Control-Allow-Origin": "*"} ,
     // 'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE',
-    // "Content-Type": "application/json"
+    "Content-Type": "application/json",
 });
 const serverRequest = (requestType , paramsObj, url) => {
     switch(requestType){
