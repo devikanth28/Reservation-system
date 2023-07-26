@@ -27,5 +27,10 @@ public class PlaceServiceImpl  implements PlaceService{
 		return placeDao.getBusBasedOnCriteria(src,dest,date);
 	}
 
+	@Override
+	public List<Bus> getAllBuses() {
+		return placeDao.getAllBuses();
+	}
+
 
 }

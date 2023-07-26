@@ -11,5 +11,7 @@ public interface PlaceService {
 	public List<Place> getPlacesForSrcAndDest();
 	
 	public List<Bus> getBusBasedOnCriteria(String src,String dest,Date date);
+	
+	public List<Bus> getAllBuses();
 
 }
